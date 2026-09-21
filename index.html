@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nishu Jha - UI/UX Designer &amp; Python Developer</title>
+  <meta name="description" content="Portfolio of Nishu Jha, a UI/UX designer and Python developer based in Delhi, India." />
+  <meta name="color-scheme" content="dark" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Geist', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+            serif: ['Newsreader', 'Georgia', 'Cambria', 'Times New Roman', 'serif'],
+          },
+          colors: {
+            page: '#0d0f12',
+            raised: '#12151a',
+            accent: '#8fb4ff',
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    ::selection { background: #8fb4ff; color: #0d0f12; }
+    * { scrollbar-width: thin; scrollbar-color: #2a2f37 transparent; }
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-thumb { background: #2a2f37; border-radius: 6px; border: 2px solid #0d0f12; }
+    .link-u { text-decoration: underline; text-decoration-color: #52525b; text-underline-offset: 4px; transition: text-decoration-color .15s ease, color .15s ease; }
+    .link-u:hover { text-decoration-color: #fafafa; color: #fafafa; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto !important; }
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+
+<body class="bg-page font-sans text-neutral-300 antialiased">
+  <a href="#engineering" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-neutral-100 focus:px-3 focus:py-2 focus:text-sm focus:text-neutral-900">Skip to projects</a>
+
+  <div class="mx-auto max-w-6xl px-5 sm:px-8">
+
+    <!-- ============ HEADER / HERO ============ -->
+    <header class="border-b border-neutral-800 pb-16 pt-6 sm:pb-24">
+      <nav aria-label="Primary" class="flex items-center justify-between border-b border-neutral-800 pb-5 text-sm">
+        <a href="#" class="font-medium text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">Nishu Jha</a>
+        <ul class="flex items-center gap-5 text-neutral-400 sm:gap-7">
+          <li><a href="#engineering" class="transition-colors hover:text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">Engineering</a></li>
+          <li><a href="#design" class="transition-colors hover:text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">Design</a></li>
+          <li><a href="#skills" class="transition-colors hover:text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">Skills</a></li>
+        </ul>
+      </nav>
+
+      <div class="mt-16 grid gap-12 sm:mt-24 lg:grid-cols-12 lg:gap-8">
+        <div class="lg:col-span-8">
+          <h1 class="font-serif text-[2.6rem] font-normal leading-[1.05] tracking-tight text-neutral-50 sm:text-6xl lg:text-[4.5rem]">
+            UI/UX Designer &amp; Python Developer
+          </h1>
+          <p class="mt-8 max-w-xl text-lg leading-relaxed text-neutral-300">
+            I'm Nishu Jha, a B.Tech CSE student at MERI College of Engineering and Technology. I like working where backend logic meets the experience people actually have with a product, so I design the screens and write the code behind them.
+          </p>
+
+          <ul class="mt-10 flex flex-wrap gap-3">
+            <li>
+              <a href="mailto:nishujha1113@gmail.com" class="inline-block rounded bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-900 transition-colors hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Email Me</a>
+            </li>
+            <li>
+              <a href="https://github.com/ciphernishvv/" target="_blank" rel="noopener noreferrer" class="inline-block rounded border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 transition-colors hover:border-neutral-500 hover:bg-raised focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">GitHub</a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/nishu-jha-a9054b34a" target="_blank" rel="noopener noreferrer" class="inline-block rounded border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 transition-colors hover:border-neutral-500 hover:bg-raised focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">LinkedIn</a>
+            </li>
+            <li>
+              <a href="tel:+919142470433" class="inline-block rounded border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 transition-colors hover:border-neutral-500 hover:bg-raised focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Phone</a>
+            </li>
+          </ul>
+        </div>
+
+        <dl class="divide-y divide-neutral-800 self-start border-y border-neutral-800 text-sm lg:col-span-4 lg:mt-3">
+          <div class="py-4">
+            <dt class="text-neutral-500">Based in</dt>
+            <dd class="mt-1 text-neutral-100">Delhi, India</dd>
+          </div>
+          <div class="py-4">
+            <dt class="text-neutral-500">Studying</dt>
+            <dd class="mt-1 text-neutral-100">B.Tech CSE, 3rd year</dd>
+            <dd class="text-neutral-400">MERI College of Engineering and Technology, expected 2028</dd>
+          </div>
+          <div class="py-4">
+            <dt class="text-neutral-500">Email</dt>
+            <dd class="mt-1"><a class="link-u text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent" href="mailto:nishujha1113@gmail.com">nishujha1113@gmail.com</a></dd>
+          </div>
+        </dl>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ============ ENGINEERING PROJECTS ============ -->
+      <section id="engineering" aria-labelledby="engineering-title" class="grid gap-8 border-b border-neutral-800 py-16 sm:py-24 lg:grid-cols-12">
+        <div class="lg:col-span-3">
+          <h2 id="engineering-title" class="text-sm font-medium text-neutral-100">Engineering projects</h2>
+          <p class="mt-2 max-w-[16rem] text-sm leading-relaxed text-neutral-500">Python projects, from computer vision to game logic.</p>
+        </div>
+
+        <div class="grid gap-px overflow-hidden rounded-md border border-neutral-800 bg-neutral-800 md:grid-cols-2 lg:col-span-9">
+
+          <article class="flex flex-col justify-between gap-8 bg-page p-6 sm:p-8">
+            <div>
+              <h3 class="font-serif text-2xl leading-snug text-neutral-50">Push-Up Counter</h3>
+              <p class="mt-1 text-sm text-neutral-500">Real-time fitness tracking</p>
+              <p class="mt-4 text-[0.95rem] leading-relaxed text-neutral-400">
+                Real-time pose detection application tracking body movements to automatically count repetitions via webcam landmark tracking.
+              </p>
+              <ul class="mt-5 flex flex-wrap gap-2" aria-label="Tech stack for Push-Up Counter">
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Python</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">OpenCV</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">MediaPipe</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Computer Vision</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://github.com/ciphernishvv/pushup-counter" target="_blank" rel="noopener noreferrer" class="rounded border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 transition-colors hover:border-neutral-500 hover:bg-raised focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="flex flex-col justify-between gap-8 bg-page p-6 sm:p-8">
+            <div>
+              <h3 class="font-serif text-2xl leading-snug text-neutral-50">Cricket Game</h3>
+              <p class="mt-1 text-sm text-neutral-500">Interactive CLI game</p>
+              <p class="mt-4 text-[0.95rem] leading-relaxed text-neutral-400">
+                Interactive 2-over cricket match simulation vs CPU featuring toss mechanics, innings logic, and real-time score tracking.
+              </p>
+              <ul class="mt-5 flex flex-wrap gap-2" aria-label="Tech stack for Cricket Game">
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Python</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">CLI</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Game Logic</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://github.com/ciphernishvv/cricket-game" target="_blank" rel="noopener noreferrer" class="rounded border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 transition-colors hover:border-neutral-500 hover:bg-raised focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">GitHub Repo</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============ DESIGN CASE STUDIES ============ -->
+      <section id="design" aria-labelledby="design-title" class="grid gap-8 border-b border-neutral-800 py-16 sm:py-24 lg:grid-cols-12">
+        <div class="lg:col-span-3">
+          <h2 id="design-title" class="text-sm font-medium text-neutral-100">Design case studies</h2>
+          <p class="mt-2 max-w-[16rem] text-sm leading-relaxed text-neutral-500">Mobile app work designed and prototyped in Figma.</p>
+        </div>
+
+        <div class="grid gap-px overflow-hidden rounded-md border border-neutral-800 bg-neutral-800 md:grid-cols-5 lg:col-span-9">
+
+          <article class="flex flex-col justify-between gap-8 bg-page p-6 sm:p-8 md:col-span-3">
+            <div>
+              <h3 class="font-serif text-2xl leading-snug text-neutral-50 sm:text-[1.75rem]">17-Page Fitness &amp; Health Management App</h3>
+              <p class="mt-1 text-sm text-neutral-500">Mobile UI/UX</p>
+              <p class="mt-4 text-[0.95rem] leading-relaxed text-neutral-400">
+                Comprehensive 17-screen interactive mobile application designed in Figma to track daily health metrics, fitness tasks, and personal goal management.
+              </p>
+              <ul class="mt-5 flex flex-wrap gap-2" aria-label="Tools and methods for the Fitness and Health Management App">
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Figma</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">UI Design</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Prototyping</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Mobile UX</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Wireframing</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://www.figma.com/proto/mbFVW9uzSIz8qKpylGNXGI/Untitled?node-id=0-1&amp;t=K8yFWn4kAPpjiNSu-1" target="_blank" rel="noopener noreferrer" class="rounded bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-900 transition-colors hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">View Interactive Figma Prototype</a>
+            </div>
+          </article>
+
+          <article class="flex flex-col justify-between gap-8 bg-page p-6 sm:p-8 md:col-span-2">
+            <div>
+              <h3 class="font-serif text-2xl leading-snug text-neutral-50">RunConquer</h3>
+              <p class="mt-1 text-sm text-neutral-500">Fitness gamification app concept</p>
+              <p class="mt-4 text-[0.95rem] leading-relaxed text-neutral-400">
+                Location-based fitness app concept turning morning runs into community events with a daily "King of the Locality" leaderboard.
+              </p>
+              <ul class="mt-5 flex flex-wrap gap-2" aria-label="Tools and methods for RunConquer">
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Product Design</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Figma</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">UX Research</li>
+                <li class="rounded border border-neutral-800 px-2 py-1 text-xs text-neutral-300">Gamification</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://www.figma.com/proto/u1HoMolsiWeV2AJJwd945Q/Untitled?node-id=0-1&amp;t=hhc9pqZNjWTUPIVW-1" target="_blank" rel="noopener noreferrer" class="rounded bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-900 transition-colors hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">View Figma Concept</a>
+              <a href="https://github.com/ciphernishvv/runtoconquer" target="_blank" rel="noopener noreferrer" class="rounded border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 transition-colors hover:border-neutral-500 hover:bg-raised focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills" aria-labelledby="skills-title" class="grid gap-8 py-16 sm:py-24 lg:grid-cols-12">
+        <div class="lg:col-span-3">
+          <h2 id="skills-title" class="text-sm font-medium text-neutral-100">Technical and design skills</h2>
+          <p class="mt-2 max-w-[16rem] text-sm leading-relaxed text-neutral-500">The tools I use across code and design.</p>
+        </div>
+
+        <div class="grid gap-10 sm:grid-cols-2 lg:col-span-9 lg:grid-cols-3">
+          <div>
+            <h3 class="border-b border-neutral-800 pb-3 text-base font-medium text-neutral-100">Programming languages</h3>
+            <p class="mt-4 text-[0.95rem] leading-loose text-neutral-300">Python, C++, SQL, HTML</p>
+          </div>
+
+          <div>
+            <h3 class="border-b border-neutral-800 pb-3 text-base font-medium text-neutral-100">Design and UI/UX</h3>
+            <p class="mt-4 text-[0.95rem] leading-loose text-neutral-300">Figma, Wireframing, Prototyping, Mobile UI, Adobe Photoshop</p>
+          </div>
+
+          <div>
+            <h3 class="border-b border-neutral-800 pb-3 text-base font-medium text-neutral-100">Frameworks and tools</h3>
+            <p class="mt-4 text-[0.95rem] leading-loose text-neutral-300">Computer Vision (OpenCV, MediaPipe), Git/GitHub, CLI Logic</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="border-t border-neutral-800 py-10 text-sm">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <p class="text-neutral-400">
+            Want to work together? Write to
+            <a class="link-u text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent" href="mailto:nishujha1113@gmail.com">nishujha1113@gmail.com</a>
+            or call
+            <a class="link-u text-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent" href="tel:+919142470433">+91 9142470433</a>.
+          </p>
+          <p class="mt-2 text-neutral-500">Delhi, India</p>
+        </div>
+        <p class="text-neutral-500">&copy; <span id="year">2026</span> Nishu Jha. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
